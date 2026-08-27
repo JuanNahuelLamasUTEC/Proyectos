@@ -1,2 +1,2 @@
 # Proyectos
-Portafolio de proyectos SIG, LiDAR y fotogrametría — geoprocesamiento aplicado a investigaciones ambientales y arqueológica
+Portafolio de proyectos SIG, LiDAR y fotogrametría. Geoprocesamiento aplicado a investigaciones ambientales y arqueológica
