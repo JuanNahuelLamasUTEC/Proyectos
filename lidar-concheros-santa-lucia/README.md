@@ -41,9 +41,13 @@ Workflow
 Vuelo LiDAR con patrones diferenciados por zona de prioridad (ver tabla arriba).
 Control de calidad de la nube de puntos cruda.
 Corrección de desalineación de franjas (Strip Adjustment, LiDAR360).
-Clasificación de la nube de puntos (suelo / no suelo).
-Generación de DEM (modelo digital de elevación, solo puntos de suelo) y DSM (modelo digital de superficie, incluye vegetación y estructuras).
-Interpretación visual y análisis del microrelieve derivado para identificación de estructuras monticulares y rasgos de intervención previa.
+Clasificación suelo / no-suelo. El criterio de tolerancia a ruido en este paso es distinto al de otras aplicaciones (ingeniería civil, hidrología): en prospección arqueológica se puede tolerar ruido siempre que la distorsión introducida sea significativamente menor que el tamaño del rasgo que se busca detectar, en vez de optimizar por precisión promedio del terreno.
+Interpolación de DTM/DEM y DSM. Generación de grilla a partir de los puntos clasificados como suelo (DTM/DEM) y de la superficie completa incluyendo vegetación y estructuras (DSM).
+Visualización mejorada del microrelieve. El hillshade simple tiene limitaciones conocidas para detectar rasgos sutiles: pierde detalle en zonas de sombra profunda y no representa bien rasgos lineales paralelos a la dirección de la luz. Por eso se complementó con técnicas adicionales de visualización de relieve — particularmente sky-view factor, que al usar iluminación difusa en vez de una fuente direccional evita esas limitaciones. Para estructuras puntuales como montículos (a diferencia de rasgos lineales como caminos o terrazas agrícolas), la literatura recomienda radios de búsqueda pequeños.
+Interpretación arqueológica. Contraste del microrelieve resultante contra el relevamiento topográfico convencional de 2010, identificación de estructuras monticulares conocidas y de rasgos adicionales no documentados previamente.
+
+Nota metodológica: las técnicas de visualización multi-escala (sky-view factor, openness, PCA de hillshades) dependen de parámetros empíricos (radio de búsqueda, orientación), lo que puede introducir sesgos hacia estructuras de tamaños o morfologías específicas. Esta limitación fue considerada en la elección de parámetros para este relevamiento.
+
 Resultados
 El LiDAR detectó exitosamente las estructuras monticulares (concheros) ya conocidas, previamente relevadas por topografía convencional en 2010 — validando la técnica contra un registro de referencia.
 Se identificaron además rasgos microtopográficos adicionales no evidentes en el relevamiento topográfico previo, incluyendo evidencias de intervenciones arqueológicas anteriores sobre el conchero principal.
@@ -53,3 +57,15 @@ Herramientas
 Planificación de vuelo: software de misión para DJI (grillado simple/doble por zona).
 Procesamiento LiDAR: LiDAR360 v4.1.5 (clasificación, strip adjustment, generación de DEM/DSM).
 Sensor: DJI Zenmuse L2.
+Referencias
+
+Lemos, J.; Aubet, N.; Lamas, N.; Beovide, L. Aplicación experimental de tecnología LIDAR para el relevamiento de concheros precoloniales en la cuenca inferior del río Santa Lucía (Uruguay). CIRAT/PIAAD/MEC — GIEx, UTEC. (Resumen presentado a congreso).
+
+Metodología de procesamiento y visualización:
+
+Doneus, M. et al. Comparison of filters for archaeology-specific ground extraction from airborne LiDAR point clouds. Remote Sensing, 12(18), 3025, 2020.
+Human-in-the-loop development of spatially adaptive ground point filtering pipelines — an archaeological case study. Archaeological Prospection, 2022.
+Airborne LiDAR point cloud processing for archaeology: pipeline and QGIS toolbox. Journal of Computer Applications in Archaeology, 2021.
+Zakšek, K.; Oštir, K.; Kokalj, Ž. Sky-view factor as a relief visualization technique. Remote Sensing, 3(2), 398–415, 2011.
+Kokalj, Ž.; Zakšek, K.; Oštir, K. Visualizations of lidar derived relief models, en Interpreting Archaeological Topography, 2013.
+Detecting Neolithic burial mounds from LiDAR-derived elevation data using a multi-scale approach and machine learning techniques. Remote Sensing, 10(2), 225, 2018.
