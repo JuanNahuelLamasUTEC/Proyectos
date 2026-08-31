@@ -1,4 +1,4 @@
-# Fotogrametría UAV multisensor para caracterización fenotípica de palmeras — detección temprana de picudo rojo
+# Fotogrametría UAV multisensor para caracterización fenotípica de palmeras: Detección temprana de picudo rojo
 
 ## Contexto
 
