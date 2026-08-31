@@ -52,7 +52,7 @@ El uso de grillado doble en la zona de prioridad A responde a una decisión meto
 
 ## Procesamiento y solución técnica
 
-**Problema identificado:** durante el procesamiento en LiDAR360 se detectaron discontinuidades altimétricas entre franjas de vuelo adyacentes (*strip misalignment*), que de no corregirse introducen ruido artificial en el DEM y pueden enmascarar o simular microrelieve real — un riesgo particular en este tipo de aplicación, donde el objetivo es precisamente detectar variaciones sutiles de relieve de origen antrópico.
+**Problema identificado:** durante el procesamiento en LiDAR360 se detectaron discontinuidades altimétricas entre franjas de vuelo adyacentes (*strip misalignment*), que de no corregirse introducen ruido artificial en el DEM y pueden enmascarar o simular microrelieve real, un riesgo particular en este tipo de aplicación, donde el objetivo es precisamente detectar variaciones sutiles de relieve de origen antrópico.
 
 **Solución aplicada:** ajuste de franjas mediante la herramienta *Strip Adjustment* de LiDAR360, que corrige los desvíos relativos entre pasadas de vuelo (offsets planimétricos y altimétricos) antes de la generación de los productos derivados, asegurando consistencia geométrica entre franjas superpuestas.
 
