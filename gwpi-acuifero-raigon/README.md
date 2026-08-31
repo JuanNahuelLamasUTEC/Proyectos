@@ -16,7 +16,7 @@ El área de estudio corresponde al piloto **Ciudad del Plata–Libertad (San Jos
 
 ## Mi rol en el proyecto
 
-Responsable único del diseño y ejecución del análisis AHP/GWPI: definición de criterios, construcción de la matriz de comparación pareada, reclasificación de las doce capas temáticas, procesamiento en SIG, e integración del índice final.
+Responsable del diseño y ejecución del análisis AHP/GWPI: definición de criterios, construcción de la matriz de comparación pareada, reclasificación de las doce capas temáticas, procesamiento en SIG, e integración del índice final.
 
 ---
 
@@ -53,17 +53,17 @@ Geología y Geomorfología encabezan la jerarquía por su control de primer orde
 
 ## Procedimiento de reclasificación
 
-**Variables continuas con variación espacial** (pendiente, DEM, TWI, curvatura, densidad de drenaje, distancia a cursos de agua): clasificadas en cinco categorías mediante el método de Rupturas Naturales (Jenks), calculado sobre el ráster del área de estudio en cada caso — en vez de adoptar umbrales numéricos de estudios de referencia, dado que variables como el TWI dependen del algoritmo de flujo y la resolución del modelo de elevación utilizado (Sørensen et al., 2006). De la literatura se tomó exclusivamente el sentido de favorabilidad de cada variable.
+**Variables continuas con variación espacial** (pendiente, DEM, TWI, curvatura, densidad de drenaje, distancia a cursos de agua): clasificadas en cinco categorías mediante el método de Rupturas Naturales (Jenks), calculado sobre el ráster del área de estudio en cada caso, en vez de adoptar umbrales numéricos de estudios de referencia, dado que variables como el TWI dependen del algoritmo de flujo y la resolución del modelo de elevación utilizado (Sørensen et al., 2006). De la literatura se tomó exclusivamente el sentido de favorabilidad de cada variable.
 
 **Variables categóricas** (Geología, Geomorfología, Uso del suelo): reclasificadas por unidad o clase según la conductividad hidráulica, porosidad o comportamiento hidrológico documentado en la bibliografía correspondiente. El método de Rupturas Naturales no es aplicable a estas capas por tratarse de unidades categóricas discretas.
 
-**Variables climáticas homogéneas** (Precipitación, Evapotranspiración Real, Temperatura): representadas por un valor único para toda el área de estudio, decisión acordada por el equipo de trabajo en función de dos consideraciones: la reducida extensión del área de estudio en relación a la resolución espacial de los productos climáticos disponibles, y el peso conjunto reducido de estas tres capas dentro de la matriz AHP (10.5%). El rating se determinó comparando el valor local contra el promedio nacional de Uruguay — un criterio metodológico propio del trabajo, sin respaldo bibliográfico directo en la literatura AHP-GWP consultada, aunque conceptualmente análogo al principio de los índices de anomalía climática (p. ej., el Standardized Precipitation Index).
+**Variables climáticas homogéneas** (Precipitación, Evapotranspiración Real, Temperatura): representadas por un valor único para toda el área de estudio, decisión acordada por el equipo de trabajo en función de dos consideraciones: la reducida extensión del área de estudio en relación a la resolución espacial de los productos climáticos disponibles, y el peso conjunto reducido de estas tres capas dentro de la matriz AHP (10.5%). El rating se determinó comparando el valor local contra el promedio nacional de Uruguay, un criterio metodológico propio del trabajo, sin respaldo bibliográfico directo en la literatura AHP-GWP consultada, aunque conceptualmente análogo al principio de los índices de anomalía climática (p. ej., el Standardized Precipitation Index).
 
 ---
 
 ## Rating de Geología
 
-Basado en Bessouat, Castagnino, De los Santos y Robano — *"Acuífero Raigón Parte 1: Caracterización Geohidrológica"* y *"Parte 2: Carta de Vulnerabilidad"* — que aplican la metodología DRASTIC (Aller et al., 1987) a las formaciones geológicas del área. Se utilizaron específicamente los sub-índices "Tipo de Acuífero" e "Impacto de la Zona Vadosa" de esa fuente, no el Índice de Vulnerabilidad agregado, por corresponder a una medida de conductividad hidráulica y porosidad litológica transferible a un modelo de potencial, más allá de que el marco DRASTIC original fue concebido para evaluar vulnerabilidad a la contaminación.
+Basado en Bessouat, Castagnino, De los Santos y Robano — *"Acuífero Raigón Parte 1: Caracterización Geohidrológica"* y *"Parte 2: Carta de Vulnerabilidad"*, que aplican la metodología DRASTIC (Aller et al., 1987) a las formaciones geológicas del área. Se utilizaron específicamente los sub-índices "Tipo de Acuífero" e "Impacto de la Zona Vadosa" de esa fuente, no el Índice de Vulnerabilidad agregado, por corresponder a una medida de conductividad hidráulica y porosidad litológica transferible a un modelo de potencial, más allá de que el marco DRASTIC original fue concebido para evaluar vulnerabilidad a la contaminación.
 
 | Unidad | Rating | Justificación |
 |---|---|---|
