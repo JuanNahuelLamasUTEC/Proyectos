@@ -56,6 +56,6 @@ Mesas-Carrascosa, F. J. et al. A Calibration Procedure for Field and UAV-Based U
 
 High-Resolution Thermal Mapping for Quantitative UAV–TIR Applications: A Methodological Review of Sensor Integration, Calibration, and Data Processing Decisions (2026). *Aerospace*.
 
-Gibril, M. B. A. et al. (2023). Large-scale date palm tree segmentation from multiscale UAV-based and aerial images using deep vision transformers. *[Detalle de la publicación a confirmar]*.
+Gibril, M. B. A. et al. (2023). Large-scale date palm tree segmentation from multiscale UAV-based and aerial images using deep vision transformers. 
 
 Casas, E.; Arbelo, M.; Moreno-Ruiz, J. A.; Hernández-Leal, P. A.; Reyes-Carlos, J. A. (2023). UAV-based disease detection in palm groves of *Phoenix canariensis* using machine learning and multispectral imagery. *Remote Sensing*, 15(14), Article 3584.
