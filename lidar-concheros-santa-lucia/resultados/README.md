@@ -1,4 +1,4 @@
-# resultados/
+# Resultados
 
 Productos derivados del procesamiento de la nube de puntos LiDAR: clasificación, modelos de elevación (DEM/DSM), visualización de microrelieve y comparación contra el registro fotogramétrico previo del sitio (2011). No se incluyen coordenadas exactas ni cartografía de detalle (ver nota de datos sensibles en el README principal).
 
