@@ -1,4 +1,4 @@
-# resultados/
+# Resultados
 
 Productos derivados del procesamiento fotogramétrico multisensor: ortomosaicos por banda, segmentación automática de copas individuales y verificaciones de calidad del pipeline de delimitación.
 
