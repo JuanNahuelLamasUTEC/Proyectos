@@ -6,7 +6,7 @@ Capturas del flujo de trabajo en ArcGIS Pro para el cálculo del GWPI: automatiz
 
 ### 1–2. Automatización en ModelBuilder
 
-![Flujo ModelBuilder - geomorfología](01_modelbuilder_flujo-geomorfologia.png)
+![Flujo ModelBuilder - geomorfología](01_modelbuilder_flujo-GPWI.png)
 
 Flujo de ModelBuilder para la generación automatizada del Groundwater Potential a formato raster, incorporando los 12 criterios de la matriz AHP.
 
