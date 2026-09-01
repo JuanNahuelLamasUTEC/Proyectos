@@ -8,11 +8,11 @@ Capturas del flujo de trabajo en ArcGIS Pro para el cálculo del GWPI: automatiz
 
 ![Flujo ModelBuilder - geomorfología](01_modelbuilder_flujo-geomorfologia.png)
 
-Flujo de ModelBuilder para la conversión automatizada de las unidades geomorfológicas a formato raster, uno de los 12 criterios de la matriz AHP.
+Flujo de ModelBuilder para la generación automatizada del Groundwater Potential a formato raster, incorporando los 12 criterios de la matriz AHP.
 
 ![Detalle ModelBuilder - conversión raster](02_modelbuilder_detalle-conversion-raster.png)
 
-Detalle del mismo modelo, mostrando los parámetros de conversión y reclasificación aplicados a la capa.
+Automatización del proceso con ModelBuilder para generar las capas raster de clima (Temperatura, precipitación, etc.).
 
 ### 3. Organización del proyecto
 
