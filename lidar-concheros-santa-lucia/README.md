@@ -1,5 +1,6 @@
 # Aplicación de tecnología LiDAR para el relevamiento de concheros precoloniales
-### Cuenca inferior del río Santa Lucía, Uruguay
+
+**Cuenca inferior del río Santa Lucía, Uruguay**
 
 ---
 
@@ -13,8 +14,6 @@ Los resultados fueron presentados como resumen en congreso, en coautoría con CI
 
 > **Nota sobre datos sensibles:** por tratarse de sitios con protección patrimonial, este repositorio no incluye coordenadas exactas, nubes de puntos georreferenciadas ni cartografía de detalle del sitio. Se muestran únicamente metodología, parámetros técnicos de vuelo y procesamiento, y resultados descriptivos generales.
 
----
-
 ## Mi rol en el proyecto
 
 Trabajo en equipo interinstitucional (GIEx-UTEC / CIRAT-MEC). Responsable de:
@@ -22,8 +21,6 @@ Trabajo en equipo interinstitucional (GIEx-UTEC / CIRAT-MEC). Responsable de:
 - Planificación y organización del vuelo LiDAR (definición de zonas de cobertura y patrones de vuelo)
 - Procesamiento de la nube de puntos
 - Interpretación de los productos derivados (DEM, DSM) para la identificación de estructuras y microrelieve
-
----
 
 ## Equipo y sensor
 
@@ -33,8 +30,6 @@ Trabajo en equipo interinstitucional (GIEx-UTEC / CIRAT-MEC). Responsable de:
 | Sensor | DJI Zenmuse L2 (LiDAR + cámara RGB) |
 | Altura de vuelo | 80 m AGL |
 | Densidad de puntos resultante | 242 pts/m² |
-
----
 
 ## Diseño de vuelo
 
@@ -48,15 +43,15 @@ Se definieron zonas de cobertura diferenciadas según prioridad, con dos patrone
 
 El uso de grillado doble en la zona de prioridad A responde a una decisión metodológica: al superponer dos pasadas perpendiculares se reduce el efecto de desalineación de franjas (*strip misalignment*) que suele producirse por deriva del sistema GNSS/IMU en vuelos de única pasada, especialmente relevante en un levantamiento de alta precisión sobre microrelieve.
 
----
-
 ## Procesamiento y solución técnica
 
-**Problema identificado:** durante el procesamiento en LiDAR360 se detectaron discontinuidades altimétricas entre franjas de vuelo adyacentes (*strip misalignment*), que de no corregirse introducen ruido artificial en el DEM y pueden enmascarar o simular microrelieve real, un riesgo particular en este tipo de aplicación, donde el objetivo es precisamente detectar variaciones sutiles de relieve de origen antrópico.
+**Problema identificado:** durante el procesamiento en LiDAR360 se detectaron discontinuidades altimétricas entre franjas de vuelo adyacentes (*strip misalignment*), que de no corregirse introducen ruido artificial en el DEM y pueden enmascarar o simular microrelieve real — un riesgo particular en este tipo de aplicación, donde el objetivo es precisamente detectar variaciones sutiles de relieve de origen antrópico.
 
 **Solución aplicada:** ajuste de franjas mediante la herramienta *Strip Adjustment* de LiDAR360, que corrige los desvíos relativos entre pasadas de vuelo (offsets planimétricos y altimétricos) antes de la generación de los productos derivados, asegurando consistencia geométrica entre franjas superpuestas.
 
-### Workflow
+## Metodología (workflow)
+
+<img src="docs/workflow_completo_lidar_concheros.png" width="700">
 
 1. **Vuelo LiDAR** con patrones diferenciados por zona de prioridad (ver tabla arriba).
 2. **Control de calidad** de la nube de puntos cruda.
@@ -68,8 +63,6 @@ El uso de grillado doble en la zona de prioridad A responde a una decisión meto
 
 > **Nota metodológica:** las técnicas de visualización multi-escala (sky-view factor, openness, PCA de hillshades) dependen de parámetros empíricos (radio de búsqueda, orientación), lo que puede introducir sesgos hacia estructuras de tamaños o morfologías específicas. Esta limitación fue considerada en la elección de parámetros para este relevamiento.
 
----
-
 ## Resultados
 
 - El LiDAR detectó exitosamente las estructuras monticulares (concheros) ya conocidas, previamente relevadas por topografía convencional en 2010, validando la técnica contra un registro de referencia.
@@ -77,21 +70,17 @@ El uso de grillado doble en la zona de prioridad A responde a una decisión meto
 - El relevamiento de zonas adyacentes permitió reconocer áreas con características geomorfológicas comparables, de interés para prospección futura.
 - Se generaron modelos y mapeos volumétricos de alta resolución del sitio.
 
-*(Los resultados los podra encontrar en la respectiva carpeta)*
-
----
+Ver capturas y productos derivados en la carpeta [`resultados/`](./resultados).
 
 ## Herramientas
 
-- **Planificación de vuelo:** DJIFlightPlanner
-- **Procesamiento LiDAR:** LiDAR360 v4.1.5 (clasificación, strip adjustment, generación de DEM/DSM) y QuickTerrainModeler (QTM)
+- **Planificación de vuelo:** DJI Flight Planner
+- **Procesamiento LiDAR:** LiDAR360 v4.1.5 (clasificación, strip adjustment, generación de DEM/DSM) y QuickTerrain Modeler (QTM)
 - **Sensor:** DJI Zenmuse L2
-
----
 
 ## Referencias
 
-Lemos, J.; Aubet, N.; Lamas, N.; Beovide, L. *Aplicación experimental de tecnología LIDAR para el relevamiento de concheros precoloniales en la cuenca inferior del río Santa Lucía (Uruguay)*. CIRAT/PIAAD/MEC — GIEx, UTEC. Resumen presentado a congreso.
+Lemos, J.; Aubet, N.; Lamas, N.; Beovide, L. Aplicación experimental de tecnología LIDAR para el relevamiento de concheros precoloniales en la cuenca inferior del río Santa Lucía (Uruguay). CIRAT/PIAAD/MEC — GIEx, UTEC. Resumen presentado a congreso.
 
 **Metodología de procesamiento y visualización:**
 
@@ -99,8 +88,5 @@ Lemos, J.; Aubet, N.; Lamas, N.; Beovide, L. *Aplicación experimental de tecnol
 - Doneus, M.; Höfle, B.; Kempf, D.; Daskalakis, G.; Shinoto, M. Human-in-the-loop development of spatially adaptive ground point filtering pipelines — an archaeological case study. *Archaeological Prospection*, 29(4), 503–524, 2022.
 - Štular, B.; Eichert, S.; Lozić, E. Airborne LiDAR Point Cloud Processing for Archaeology: Pipeline and QGIS Toolbox. *Remote Sensing*, 13(16), 3225, 2021.
 - Zakšek, K.; Oštir, K.; Kokalj, Ž. Sky-View Factor as a Relief Visualization Technique. *Remote Sensing*, 3(2), 398–415, 2011.
-- Kokalj, Ž.; Zakšek, K.; Oštir, K. Visualizations of lidar derived relief models, en *Interpreting Archaeological Topography*, 2013.
-- Detecting Neolithic burial mounds from LiDAR-derived elevation data using a multi-scale approach and machine learning techniques. *Remote Sensing*, 10(2), 225, 2018.
-- Airborne LiDAR point cloud processing for archaeology: pipeline and QGIS toolbox. Journal of Computer Applications in Archaeology, 2021.
-- Zakšek, K.; Oštir, K.; Kokalj, Ž. Sky-view factor as a relief visualization technique. Remote Sensing, 3(2), 398–415, 2011.
-- Kokalj, Ž.; Zakšek, K.; Oštir, K. Visualizations of lidar derived relief models, en Interpreting Archaeological Topography, 2013.
+- Kokalj, Ž.; Zakšek, K.; Oštir, K. Visualizations of lidar derived relief models. In *Interpreting Archaeological Topography*, 2013.
+- Guyot, A.; Hubert-Moy, L.; Lorho, T. Detecting Neolithic Burial Mounds from LiDAR-Derived Elevation Data Using a Multi-Scale Approach and Machine Learning Techniques. *Remote Sensing*, 10(2), 225, 2018.
