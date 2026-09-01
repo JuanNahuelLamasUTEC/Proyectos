@@ -1,4 +1,4 @@
-# resultados/
+# Resultados
 
 Capturas del flujo de trabajo en ArcGIS Pro para el cálculo del GWPI: automatización en ModelBuilder, organización de capas del proyecto y preparación del layout final. No se incluyen los mapas oficiales del informe (ver nota en el README principal).
 
