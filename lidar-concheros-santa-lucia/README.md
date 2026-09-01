@@ -4,6 +4,10 @@
 
 ---
 
+## Project summary — English
+
+This project evaluates airborne LiDAR (DJI Zenmuse L2) for detecting pre-colonial shell-mound archaeological structures (*concheros*) in the lower Santa Lucía River basin, Uruguay — the first application of this technology to an archaeological site in the country. Flight design combined cross-hatch and single-grid patterns at 80 m AGL (242 points/m²), with strip misalignment corrected in LiDAR360 prior to DEM/DSM generation. Sky-view factor and other relief-visualization techniques revealed subtle microtopography, validated against a prior 2011 photogrammetric survey. Exact coordinates and detailed site cartography are withheld due to heritage-site protection.
+
 ## Contexto
 
 Proyecto conjunto entre el **Grupo de Investigaciones Espaciales (GIEx, UTEC)** y el **Laboratorio de Análisis Espacial del CIRAT** (Centro de Investigación Regional Arqueológica y Territorial / PIAAD / MEC), orientado a evaluar el uso de sensores LiDAR aerotransportados para la identificación y caracterización de estructuras arqueológicas tipo *conchero* (montículos de origen antrópico precolonial) en ambientes costeros y de humedal.
@@ -90,7 +94,5 @@ Lemos, J.; Aubet, N.; Lamas, N.; Beovide, L. Aplicación experimental de tecnolo
 - Zakšek, K.; Oštir, K.; Kokalj, Ž. Sky-View Factor as a Relief Visualization Technique. *Remote Sensing*, 3(2), 398–415, 2011.
 - Kokalj, Ž.; Zakšek, K.; Oštir, K. Visualizations of lidar derived relief models. In *Interpreting Archaeological Topography*, 2013.
 - Guyot, A.; Hubert-Moy, L.; Lorho, T. Detecting Neolithic Burial Mounds from LiDAR-Derived Elevation Data Using a Multi-Scale Approach and Machine Learning Techniques. *Remote Sensing*, 10(2), 225, 2018.
-- Štular, B.; Eichert, S.; Lozić, E. Airborne LiDAR Point Cloud Processing for Archaeology: Pipeline and QGIS Toolbox. *Remote Sensing*, 13(16), 3225, 2021.
-- Zakšek, K.; Oštir, K.; Kokalj, Ž. Sky-View Factor as a Relief Visualization Technique. *Remote Sensing*, 3(2), 398–415, 2011.
-- Kokalj, Ž.; Zakšek, K.; Oštir, K. Visualizations of lidar derived relief models. In *Interpreting Archaeological Topography*, 2013.
-- Guyot, A.; Hubert-Moy, L.; Lorho, T. Detecting Neolithic Burial Mounds from LiDAR-Derived Elevation Data Using a Multi-Scale Approach and Machine Learning Techniques. *Remote Sensing*, 10(2), 225, 2018.
+
+
