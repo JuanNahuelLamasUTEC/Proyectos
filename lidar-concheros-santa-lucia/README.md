@@ -6,7 +6,7 @@
 
 ## Project summary — English
 
-This project evaluates airborne LiDAR (DJI Zenmuse L2) for detecting pre-colonial shell-mound archaeological structures (*concheros*) in the lower Santa Lucía River basin, Uruguay — the first application of this technology to an archaeological site in the country. Flight design combined cross-hatch and single-grid patterns at 80 m AGL (242 points/m²), with strip misalignment corrected in LiDAR360 prior to DEM/DSM generation. Sky-view factor and other relief-visualization techniques revealed subtle microtopography, validated against a prior 2011 photogrammetric survey. Exact coordinates and detailed site cartography are withheld due to heritage-site protection.
+This project evaluates airborne LiDAR (DJI Zenmuse L2) for detecting pre-colonial shell-mound archaeological structures (*concheros*) in the lower Santa Lucía River basin, Uruguay. The first application of this technology to an archaeological site in the country. Flight design combined cross-hatch and single-grid patterns at 80 m AGL (242 points/m²), with strip misalignment corrected in LiDAR360 prior to DEM/DSM generation. Sky-view factor and other relief-visualization techniques revealed subtle microtopography, validated against a prior 2011 photogrammetric survey. Exact coordinates and detailed site cartography are withheld due to heritage-site protection.
 
 ## Contexto
 
