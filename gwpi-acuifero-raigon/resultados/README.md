@@ -8,10 +8,11 @@ Capturas del flujo de trabajo en ArcGIS Pro para el cálculo del GWPI: automatiz
 
 <img src="01_modelbuilder_flujo-GPWI.png" width="700">
 
-Flujo de ModelBuilder para la generación automatizada mediante ModelBuilder del raster GWPI.
+Flujo de trabajo en ModelBuilder para la generación automatizada del raster GWPI.
+
 <img src="02_modelbuilder_detalle-conversion-raster.png" width="700">
 
-Conversión y generación de RASTER de datos climáticos (Temperatura, humedad y precipitación) 
+Flujo de trabajo para conversión y generación de RASTER de datos climáticos (Temperatura, Evapotranspiración y precipitación) 
 
 ### 3. Organización del proyecto
 
