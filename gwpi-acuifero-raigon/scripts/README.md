@@ -1,4 +1,4 @@
-# scripts/
+# scripts
 
 Utilidades en Python que implementan la componente cuantitativa del análisis GWPI/AHP: cálculo de pesos por Proceso Analítico Jerárquico y suma ponderada de capas raster reclasificadas. Reproducen en Python puro los pasos que en el flujo operativo del proyecto se ejecutaron en ArcGIS Pro (ModelBuilder + Spatial Analyst), documentando la lógica de forma independiente de la licencia de software.
 
