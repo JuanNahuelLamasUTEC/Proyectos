@@ -1,5 +1,9 @@
 # Fotogrametría UAV multisensor para caracterización fenotípica de palmeras: Detección temprana de picudo rojo
 
+## Project summary — English
+
+This project develops a UAV-based multisensor (RGB, multispectral, thermal) photogrammetry pipeline for early detection of red palm weevil (*Rhynchophorus ferrugineus*) in *Phoenix canariensis* palms at pilot sites in Montevideo, Uruguay. RTK-corrected positioning, radiometric thermal calibration (absolute vs. relative temperature), and Structure-from-Motion processing produce georeferenced orthomosaics and digital surface models. Individual palm crowns are segmented using a hybrid OBIA + vision-transformer approach, and per-crown spectral, thermal, and textural variables are extracted as inputs for downstream health-classification models.
+
 ## Contexto
 
 Trabajo de campo y procesamiento fotogramétrico desarrollado en el marco de la línea de investigación del Grupo de Investigaciones Espaciales (GIEx, UTEC) sobre detección temprana de picudo rojo (*Rhynchophorus ferrugineus*) en palmeras *Phoenix canariensis*, en sitios piloto de Montevideo. Constituye la etapa preliminar de fotogrametría UAV y generación de ortomosaicos sobre la cual se apoya el desarrollo posterior de modelos de clasificación del estado sanitario de los ejemplares.
@@ -68,6 +72,10 @@ Planificación y ejecución de misiones de vuelo UAV. Procesamiento fotogramétr
 - Gibril, M. B. A.; Shafri, H. Z. M.; Al-Ruzouq, R.; Shanableh, A.; Nahas, F.; Al Mansoori, S. (2023). Large-scale date palm tree segmentation from multiscale UAV-based and aerial images using deep vision transformers. *Drones*, 7(2), 93.
 
 **Detección de estado sanitario en palmeras:**
+
+- Casas, E.; Arbelo, M.; Moreno-Ruiz, J. A.; Hernández-Leal, P. A.; Reyes-Carlos, J. A. (2023). UAV-based disease detection in palm groves of *Phoenix canariensis* using machine learning and multispectral imagery. *Remote Sensing*, 15(14), 3584.
+
+
 
 - Casas, E.; Arbelo, M.; Moreno-Ruiz, J. A.; Hernández-Leal, P. A.; Reyes-Carlos, J. A. (2023). UAV-based disease detection in palm groves of *Phoenix canariensis* using machine learning and multispectral imagery. *Remote Sensing*, 15(14), 3584.
 
