@@ -8,7 +8,11 @@
 
 Repositorio de proyectos de geoprocesamiento aplicado a investigación ambiental, hidrogeológica y arqueológica, desarrollados en el marco de mi trabajo en el **Grupo de Investigaciones Espaciales (GIEx)**, Universidad Tecnológica del Uruguay (UTEC), ITR Centro-Sur.
 
-Cada carpeta corresponde a un proyecto independiente, con su propio README documentando contexto, metodología, herramientas y resultados. No se reproducen datos, mapas ni cartografía oficial de proyectos con informes aún en proceso de publicación o de sitios arqueológicos protegidos. El detalle de estas restricciones está aclarado en el README de cada carpeta.
+Cada carpeta corresponde a un proyecto independiente, con su propio README documentando contexto, metodología, herramientas y resultados. No se reproducen datos, mapas ni cartografía oficial de proyectos con informes aún en proceso de publicación o de sitios arqueológicos protegidos — el detalle de estas restricciones está aclarado en el README de cada carpeta.
+
+## Summary — English
+
+This repository is a portfolio of applied geospatial research projects spanning LiDAR archaeology, GIS-based groundwater potential modeling, and UAV multisensor photogrammetry, developed within the Grupo de Investigaciones Espaciales (GIEx) at Universidad Tecnológica del Uruguay (UTEC). Each project folder includes its own README documenting context, methodology, tools, and results, with a short English summary. The author is a geologist (FCEN-UBA) and current master's student (UdelaR/PEDECIBA) working on GIS, remote sensing, UAV/LiDAR acquisition, and geospatial programming (Python, GeoPandas).
 
 ## Proyectos
 
@@ -40,4 +44,6 @@ Trabajo desarrollado en el **Grupo de Investigaciones Espaciales (GIEx)**, UTEC 
 ---
 
 > *Nota: la redacción y estructura de este portafolio fue asistida con IA (Claude, Anthropic). El análisis, la metodología y los resultados son de autoría propia.*
+
+
 
