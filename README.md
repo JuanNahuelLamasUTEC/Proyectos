@@ -40,7 +40,7 @@ Trabajo desarrollado en el **Grupo de Investigaciones Espaciales (GIEx)**, UTEC 
 - LinkedIn: [Nahuel Lamas](https://uy.linkedin.com/in/nahuel-lamas-998a781a1)
 - GitHub: [@JuanNahuelLamasUTEC](https://github.com/JuanNahuelLamasUTEC)
 - Institución: UTEC — Grupo de Investigaciones Espaciales (GIEx)
-
+- Upwork: [Nahuel Lamas](https://www.upwork.com/freelancers/~017cc9f589e026be8e?viewMode=1)
 ---
 
 > *Nota: la redacción y estructura de este portafolio fue asistida con IA (Claude, Anthropic). El análisis, la metodología y los resultados son de autoría propia.*
