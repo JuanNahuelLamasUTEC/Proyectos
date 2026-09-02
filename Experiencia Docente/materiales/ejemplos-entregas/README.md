@@ -1,4 +1,4 @@
-# ejemplos-entregas/
+# ejemplos-entregas
 
 Ejemplos anonimizados de entregas de estudiantes de Ordenamiento Ambiental, mostrando la aplicación de las técnicas del curso sobre áreas de estudio elegidas libremente por cada uno. No se incluye ningún dato identificatorio de los autores (nombre, número de grupo, correo).
 
