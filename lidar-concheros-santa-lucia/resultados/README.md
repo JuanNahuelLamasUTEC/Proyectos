@@ -6,7 +6,7 @@ Productos derivados del procesamiento de la nube de puntos LiDAR: clasificación
 
 ### 1–2. Nube de puntos con color RGB
 
-<img src="01-nube-puntos-rgb-vista1.png" width="700">
+<img src="01-nube-puntos-rgb-vista.png" width="700">
 
 Nube de puntos LiDAR coloreada con la cámara RGB integrada del sensor DJI Zenmuse L2 (vista 1).
 
