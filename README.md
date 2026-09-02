@@ -21,7 +21,7 @@ This repository is a portfolio of applied geospatial research projects spanning 
 | [`lidar-concheros-santa-lucia/`](./lidar-concheros-santa-lucia) | Detección de concheros precoloniales (cerritos de indios) en la cuenca baja del río Santa Lucía mediante datos LiDAR aerotransportado | DJI Zenmuse L2 · LiDAR360 v4.1.5 · clasificación de nube de puntos, DEM/DSM |
 | [`gwpi-acuifero-raigon/`](./gwpi-acuifero-raigon) | Índice de Potencial de Aguas Subterráneas (GWPI) del Acuífero Raigón mediante Proceso Analítico Jerárquico (AHP) multicriterio | ArcGIS Pro · ModelBuilder · Python (NumPy, mapclassify) |
 | [`fotogrametria-picudo-rojo/`](./fotogrametria-picudo-rojo) | Detección temprana de picudo rojo (*Rhynchophorus ferrugineus*) en palmeras mediante imágenes RGB, multiespectrales y térmicas de dron | Pix4D · Agisoft Metashape · DJI Thermal Tools · QGIS |
-| [`Experiencia Docente/`](./Experiencia%20Docente) | Materiales y consignas de la unidad curricular Ordenamiento Ambiental (2023-2025), con ejercicios de análisis de uso del suelo, clasificación supervisada, vulnerabilidad de acuíferos y geomorfología | QGIS · ArcGIS Pro · R (randomForest) |
+| [`Experiencia Docente/`](./Experiencia%20Docente) | Materiales y consignas de la unidad curricular Ordenamiento Ambiental (2023-2025), con ejercicios de análisis de uso del suelo, clasificación supervisada, vulnerabilidad de acuíferos y geomorfología | QGIS · ArcGIS Pro · R (randomForest) · Python |
 
 ## Stack técnico
 
