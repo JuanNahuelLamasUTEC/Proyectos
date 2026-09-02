@@ -133,8 +133,3 @@ La integración de las catorce capas ráster se realizó mediante Mosaic to New 
 - Houspanossian, J.; Giménez, R.; Whitworth-Hulse, J.I.; Nosetto, M.D.; Tych, W.; Atkinson, P.M.; Rufino, M.C.; Jobbágy, E.G. (2023). Agricultural expansion raises groundwater and increases flooding in the South American plains. *Science*, 380(6652), 1344–1348.
 - Dirección Nacional de Aguas (DINAGUA) — Balance hídrico por cuencas (comunicación interna del proyecto, agosto de 2026).
 - Instituto Uruguayo de Meteorología (INUMET) — Temperatura media anual de referencia nacional.
-
-- Dirección Nacional de Aguas (DINAGUA) — Balance hídrico por cuencas (comunicación interna del proyecto, agosto de 2026).
-- Instituto Uruguayo de Meteorología (INUMET) — Temperatura media anual de referencia nacional.
-- Dirección Nacional de Aguas (DINAGUA) — Balance hídrico por cuencas (comunicación interna del proyecto, agosto de 2026).
-- Instituto Uruguayo de Meteorología (INUMET) — Temperatura media anual de referencia nacional.
