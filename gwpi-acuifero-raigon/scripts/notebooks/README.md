@@ -4,9 +4,7 @@ Etapa vectorial reproducible del Índice de Potencial de Aguas Subterráneas del
 
 En el flujo publicado en la carpeta principal, la integración multicriterio se resolvió en **ArcGIS Pro con
 ModelBuilder** y los scripts de `../scripts/` reproducen la parte ráster (pesos por autovector y suma
-ponderada). La preparación de las capas de entrada, en cambio, se hizo de forma interactiva dentro del SIG,
-que es cómodo pero deja el paso más importante sin registro auditable: **los ratings de entrada son los que
-determinan el resultado de un análisis multicriterio**, más que los pesos.
+ponderada). La preparación de las capas de entrada, en cambio, se hizo de forma interactiva dentro del SIG.
 
 Este notebook reescribe esa etapa en Python para que pueda volver a correrse y revisarse línea por línea.
 
