@@ -1,0 +1,73 @@
+{
+  "proyecto": "GWPI — Acuífero Raigón, piloto Ciudad del Plata–Libertad, San José",
+  "autor": "Juan Nahuel Lamas — GIEx, UTEC",
+  "datos": "sintéticos reproducibles",
+  "semilla": 20250903,
+  "crs_trabajo": "EPSG:5382",
+  "celda_m": 1000,
+  "resolucion_raster_m": 30,
+  "n_celdas": 800,
+  "criterios": [
+    "Geología",
+    "TWI",
+    "Pendiente",
+    "Densidad drenaje",
+    "Distancia a cursos"
+  ],
+  "pesos_ahp": {
+    "Geología": 0.2865,
+    "TWI": 0.2242,
+    "Pendiente": 0.1957,
+    "Densidad drenaje": 0.1584,
+    "Distancia a cursos": 0.1352
+  },
+  "lambda_max": 5.0,
+  "razon_consistencia": 0.0,
+  "rating_geologia": {
+    "Formación Camacho": 5,
+    "Formación Libertad": 5,
+    "Formación Raigón": 4,
+    "Formación Chuy": 4,
+    "Formación Dolores": 4,
+    "Duna": 1,
+    "Sedimentos actuales": 1,
+    "Basamento precámbrico": 1
+  },
+  "cortes_jenks": {
+    "pendiente_pct": [
+      2.7133,
+      4.6282,
+      6.2943,
+      8.002,
+      10.7918
+    ],
+    "dens_drenaje": [
+      0.2929,
+      0.8255,
+      1.5915,
+      2.9354,
+      4.6901
+    ],
+    "dist_cursos_m": [
+      754.6261,
+      1626.8843,
+      2589.7207,
+      3695.9567,
+      5654.9069
+    ],
+    "twi": [
+      8.0371,
+      9.8784,
+      11.4398,
+      13.0212,
+      15.8518
+    ]
+  },
+  "versiones": {
+    "geopandas": "1.1.4",
+    "rasterio": "1.4.4",
+    "mapclassify": "2.10.0",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2"
+  }
+}
