@@ -31,7 +31,7 @@ Responsable del diseño y ejecución del análisis AHP/GWPI: definición de crit
 
 Las tres carpetas cubren tramos distintos del mismo flujo. `resultados/` documenta cómo se resolvió en el SIG; `scripts/` y `notebooks/` lo reproducen en Python, de forma independiente de la licencia de software y auditable línea por línea.
 
-El notebook parte de los pesos publicados en este documento —no los re-deriva— y los re-normaliza sobre el subconjunto de criterios que calcula. Reimplementa el cálculo de pesos y la reclasificación de Jenks únicamente para poder ejecutarse sin dependencias de rutas relativas; la implementación de referencia sigue siendo la de `scripts/`.
+El notebook parte de los pesos publicados en este documento (no los re-deriva) y los re-normaliza sobre el subconjunto de criterios que calcula. Reimplementa el cálculo de pesos y la reclasificación de Jenks únicamente para poder ejecutarse sin dependencias de rutas relativas; la implementación de referencia sigue siendo la de `scripts/`.
 
 ## Metodología
 
