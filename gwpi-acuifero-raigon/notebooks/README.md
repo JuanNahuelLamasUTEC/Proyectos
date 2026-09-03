@@ -51,8 +51,8 @@ Este notebook reescribe esa etapa en Python para que pueda volver a correrse y r
 | `../scripts/` | Componente cuantitativa en Python puro: `ahp_weights`, `jenks_reclassify`, `weighted_sum` |
 | `notebooks/` | Etapa vectorial previa: de las capas crudas a los ratings 1–5 que alimentan lo anterior |
 
-Las dos funciones que se solapan con `../scripts/` —el cálculo de pesos por autovector y la reclasificación
-de Jenks— se reimplementan en el notebook únicamente para que corra sin depender de rutas relativas. La
+Las dos funciones que se solapan con `../scripts/` (el cálculo de pesos por autovector y la reclasificación
+de Jenks) se reimplementan en el notebook únicamente para que corra sin depender de rutas relativas. La
 **implementación de referencia del proyecto es la de `../scripts/`**, y las docstrings del notebook lo
 indican en cada caso.
 
