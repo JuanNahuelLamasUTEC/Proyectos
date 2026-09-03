@@ -19,7 +19,7 @@ This repository is a portfolio of applied geospatial research projects spanning 
 | Proyecto | Tema | Herramientas principales |
 |---|---|---|
 | [`proyecto-lidar/`](./proyecto-lidar) | Detección de concheros precoloniales (cerritos de indios) en la cuenca baja del río Santa Lucía mediante datos LiDAR aerotransportado | DJI Zenmuse L2 · LiDAR360 v4.1.5 · clasificación de nube de puntos, DEM/DSM |
-| [`gwpi-acuifero-raigon/`](./gwpi-acuifero-raigon) | Índice de Potencial de Aguas Subterráneas (GWPI) del Acuífero Raigón mediante Proceso Analítico Jerárquico (AHP) multicriterio | ArcGIS Pro · ModelBuilder · Python (NumPy, mapclassify) |
+| [`gwpi-acuifero-raigon/`](./gwpi-acuifero-raigon) | Índice de Potencial de Aguas Subterráneas (GWPI) del Acuífero Raigón mediante Proceso Analítico Jerárquico (AHP) multicriterio, con la etapa vectorial reproducible en un notebook de GeoPandas | ArcGIS Pro · ModelBuilder · Python (GeoPandas, Rasterio, Shapely, pyproj, NumPy, mapclassify) · GeoPackage / GeoTIFF |
 | [`fotogrametria-picudo-rojo/`](./fotogrametria-picudo-rojo) | Detección temprana de picudo rojo (*Rhynchophorus ferrugineus*) en palmeras mediante imágenes RGB, multiespectrales y térmicas de dron | Pix4D · Agisoft Metashape · DJI Thermal Tools · QGIS |
 | [`Experiencia Docente/`](./Experiencia%20Docente) | Materiales y consignas de la unidad curricular Ordenamiento Ambiental (2023-2025), con ejercicios de análisis de uso del suelo, clasificación supervisada, vulnerabilidad de acuíferos y geomorfología | QGIS · ArcGIS Pro · R (randomForest) · Python |
 
