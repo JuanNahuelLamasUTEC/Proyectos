@@ -1,4 +1,4 @@
-# materiales/
+# materiales
 
 Consignas completas de los cuatro trabajos prácticos de la unidad curricular Ordenamiento Ambiental (UTEC, 2023-2025). Contexto general, objetivos de aprendizaje y competencias SIG asociadas a cada uno en el [README principal](../README.md) de esta carpeta.
 
