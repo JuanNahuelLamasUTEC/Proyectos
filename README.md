@@ -29,7 +29,7 @@ This repository is a portfolio of applied geospatial research projects spanning 
 |---|---|
 | **SIG y geoprocesamiento** | ArcGIS Pro (ModelBuilder, Spatial Analyst) · QGIS |
 | **Programación geoespacial** | Python: GeoPandas, Shapely, Rasterio, pyproj, NumPy, mapclassify · análisis vectorial reproducible, estadística zonal, manejo de sistemas de referencia y exportación a formatos abiertos · Git / GitHub |
-| **LiDAR y nubes de puntos** | LiDAR360 · DJI Zenmuse L2 · clasificación de nube de puntos, derivación de MDT/MDS |
+| **LiDAR y nubes de puntos** | QuickTerrainModeler · LIDAR360 · DJI Zenmuse L2 · clasificación de nube de puntos, derivación de MDT/MDS |
 | **Fotogrametría y sensores UAV** | Pix4D · Agisoft Metashape · DJI Thermal Tools · sensores RGB, multiespectral y térmico · corrección RTK |
 | **Teledetección** | Sentinel · Landsat · MapBiomas · Google Earth Engine · índices espectrales, clasificación supervisada |
 | **Análisis multicriterio** | Proceso Analítico Jerárquico (AHP) · método del autovector principal · Razón de Consistencia de Saaty |
