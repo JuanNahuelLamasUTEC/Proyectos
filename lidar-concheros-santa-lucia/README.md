@@ -1,4 +1,4 @@
-# Aplicación de tecnología LiDAR para el relevamiento de concheros precoloniales
+# Aplicación de tecnología LiDAR para el relevamiento de arqueología precolonial
 
 **Cuenca inferior del río Santa Lucía, Uruguay**
 
