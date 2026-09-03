@@ -25,12 +25,15 @@ This repository is a portfolio of applied geospatial research projects spanning 
 
 ## Stack técnico
 
-**SIG y geoprocesamiento:** ArcGIS Pro (ModelBuilder, Spatial Analyst), QGIS
-**Programación geoespacial:** Python — GeoPandas, Shapely, Rasterio, pyproj, NumPy, mapclassify · análisis vectorial reproducible, estadística zonal, sistemas de referencia y exportación a formatos abiertos · Git / GitHub
-**LiDAR y nubes de puntos:** LiDAR360, formatos .las/.laz
-**Fotogrametría y sensores UAV:** Pix4D, Agisoft Metashape, DJI Thermal Tools, sensores RGB/multiespectral/térmico
-**Análisis de datos geoespaciales:** MapBiomas, Google Earth Engine, análisis multicriterio (AHP)
-**Formatos y estándares:** GeoTIFF · SHP · GPKG · GeoJSON · LAS/LAZ · GDB · CSV · SIRGAS-ROU98 (EPSG:5381/5382), UTM 21S/22S · IDEuy
+| Área | Herramientas |
+|---|---|
+| **SIG y geoprocesamiento** | ArcGIS Pro (ModelBuilder, Spatial Analyst) · QGIS |
+| **Programación geoespacial** | Python: GeoPandas, Shapely, Rasterio, pyproj, NumPy, mapclassify · análisis vectorial reproducible, estadística zonal, manejo de sistemas de referencia y exportación a formatos abiertos · Git / GitHub |
+| **LiDAR y nubes de puntos** | LiDAR360 · DJI Zenmuse L2 · clasificación de nube de puntos, derivación de MDT/MDS |
+| **Fotogrametría y sensores UAV** | Pix4D · Agisoft Metashape · DJI Thermal Tools · sensores RGB, multiespectral y térmico · corrección RTK |
+| **Teledetección** | Sentinel · Landsat · MapBiomas · Google Earth Engine · índices espectrales, clasificación supervisada |
+| **Análisis multicriterio** | Proceso Analítico Jerárquico (AHP) · método del autovector principal · Razón de Consistencia de Saaty |
+| **Formatos y estándares** | GeoTIFF · SHP · GPKG · GeoJSON · LAS/LAZ · GDB · CSV · SIRGAS-ROU98 (EPSG:5381 / 5382) · UTM 21S y 22S · IDEuy |
 
 ## Contexto institucional
 
