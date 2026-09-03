@@ -1,0 +1,70 @@
+{
+  "proyecto": "GWPI — Acuífero Raigón, San José, Uruguay",
+  "autor": "Juan Nahuel Lamas — GIEx, UTEC",
+  "datos": "sintéticos reproducibles",
+  "semilla": 20250903,
+  "crs_trabajo": "EPSG:5382",
+  "celda_m": 1000,
+  "resolucion_raster_m": 30,
+  "n_celdas": 2520,
+  "criterios": [
+    "Geología",
+    "TWI",
+    "Densidad drenaje",
+    "Pendiente",
+    "Distancia a cursos"
+  ],
+  "pesos_ahp": {
+    "Geología": 0.4185,
+    "TWI": 0.2625,
+    "Densidad drenaje": 0.1599,
+    "Pendiente": 0.0973,
+    "Distancia a cursos": 0.0618
+  },
+  "lambda_max": 5.0681,
+  "razon_consistencia": 0.0152,
+  "rating_geologia": {
+    "Formación Raigón": 5,
+    "Depósitos aluviales": 4,
+    "Formación Fray Bentos": 3,
+    "Formación Libertad": 2,
+    "Basamento cristalino": 1
+  },
+  "cortes_jenks": {
+    "pendiente_pct": [
+      3.2763,
+      4.6981,
+      5.877,
+      7.312,
+      10.911
+    ],
+    "dens_drenaje": [
+      0.2607,
+      0.7798,
+      1.4841,
+      2.3798,
+      4.133
+    ],
+    "dist_cursos_m": [
+      1087.9418,
+      2392.2409,
+      4001.8374,
+      6150.0499,
+      10268.4268
+    ],
+    "twi": [
+      7.1698,
+      9.0013,
+      10.6447,
+      12.4422,
+      15.7757
+    ]
+  },
+  "versiones": {
+    "geopandas": "1.1.4",
+    "rasterio": "1.4.4",
+    "mapclassify": "2.10.0",
+    "numpy": "2.4.4",
+    "pandas": "3.0.2"
+  }
+}
