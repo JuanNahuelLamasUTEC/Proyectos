@@ -71,8 +71,7 @@ pip install -r requirements.txt
 jupyter lab 01_preparacion_vectorial_gwpi.ipynb
 ```
 
-Con la semilla fija, dos corridas dan resultados idénticos. Verificado con Python 3.11, GeoPandas 1.1,
-Rasterio 1.4 y mapclassify 2.10.
+Verificado con Python 3.11, GeoPandas 1.1, Rasterio 1.4 y mapclassify 2.10.
 
 ---
 
