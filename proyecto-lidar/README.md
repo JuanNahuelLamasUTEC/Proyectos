@@ -51,7 +51,7 @@ El uso de grillado doble en la zona de prioridad A responde a una decisión meto
 
 **Problema identificado:** durante el procesamiento en LiDAR360 se detectaron discontinuidades altimétricas entre franjas de vuelo adyacentes (*strip misalignment*), que de no corregirse introducen ruido artificial en el DEM y pueden enmascarar o simular microrelieve real — un riesgo particular en este tipo de aplicación, donde el objetivo es precisamente detectar variaciones sutiles de relieve de origen antrópico.
 
-**Solución aplicada:** ajuste de franjas mediante la herramienta *Strip Adjustment* de LiDAR360, que corrige los desvíos relativos entre pasadas de vuelo (offsets planimétricos y altimétricos) antes de la generación de los productos derivados, asegurando consistencia geométrica entre franjas superpuestas.
+**Solución aplicada:** ajuste de franjas mediante la herramienta *Strip Adjustment* de Quick Terrain Modeler, que corrige los desvíos relativos entre pasadas de vuelo (offsets planimétricos y altimétricos) antes de la generación de los productos derivados, asegurando consistencia geométrica entre franjas superpuestas.
 
 ## Metodología (workflow)
 
@@ -59,7 +59,7 @@ El uso de grillado doble en la zona de prioridad A responde a una decisión meto
 
 1. **Vuelo LiDAR** con patrones diferenciados por zona de prioridad (ver tabla arriba).
 2. **Control de calidad** de la nube de puntos cruda.
-3. **Corrección de desalineación de franjas** (Strip Adjustment, LiDAR360).
+3. **Corrección de desalineación de franjas** (Strip Adjustment, Quick Terrain MOdeler).
 4. **Clasificación suelo / no-suelo.** El criterio de tolerancia a ruido en este paso es distinto al de otras aplicaciones (ingeniería civil, hidrología): en prospección arqueológica se puede tolerar ruido siempre que la distorsión introducida sea significativamente menor que el tamaño del rasgo que se busca detectar, en vez de optimizar por precisión promedio del terreno.
 5. **Interpolación de DTM/DEM y DSM.** Generación de grilla a partir de los puntos clasificados como suelo (DTM/DEM) y de la superficie completa incluyendo vegetación y estructuras (DSM).
 6. **Visualización mejorada del microrelieve.** El hillshade simple tiene limitaciones conocidas para detectar rasgos sutiles: pierde detalle en zonas de sombra profunda y no representa bien rasgos lineales paralelos a la dirección de la luz. Por eso se complementó con técnicas adicionales de visualización de relieve, particularmente *sky-view factor*, que al usar iluminación difusa en vez de una fuente direccional evita esas limitaciones. Para estructuras puntuales como montículos (a diferencia de rasgos lineales como caminos o terrazas agrícolas), la literatura recomienda radios de búsqueda pequeños.
@@ -69,7 +69,7 @@ El uso de grillado doble en la zona de prioridad A responde a una decisión meto
 
 ## Resultados
 
-- El LiDAR detectó exitosamente las estructuras monticulares (concheros) ya conocidas, previamente relevadas por fotogrametría en 2011, validando la técnica contra un registro de referencia.
+- El LiDAR detectó exitosamente las estructuras monticulares (concheros) ya conocidas, previamente relevadas en tareas de campo en 2011, validando la técnica contra un registro de referencia.
 - Se identificaron además rasgos microtopográficos adicionales no evidentes en el relevamiento topográfico previo, incluyendo evidencias de intervenciones arqueológicas anteriores sobre el conchero principal.
 - El relevamiento de zonas adyacentes permitió reconocer áreas con características geomorfológicas comparables, de interés para prospección futura.
 - Se generaron modelos y mapeos volumétricos de alta resolución del sitio.
