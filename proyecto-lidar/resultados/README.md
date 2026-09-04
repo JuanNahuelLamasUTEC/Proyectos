@@ -52,7 +52,7 @@ Curvas de nivel generadas cada 0.1 m a partir del DEM, para el análisis de deta
 
 <img src="09-dem-fotogrametria-2011.png" width="700">
 
-DEM del sitio derivado de fotogrametría (2011), utilizado como registro de referencia preexistente para validar la detección LiDAR de las estructuras monticulares.
+DEM del sitio derivado de datos de campo (2011), utilizado como registro de referencia preexistente para validar la detección LiDAR de las estructuras monticulares.
 
 ---
 
