@@ -47,7 +47,7 @@ Planificación y ejecución de misiones de vuelo UAV. Procesamiento fotogramétr
 - **Pix4D** y **Agisoft Metashape** — procesamiento fotogramétrico SfM (generación de nube de puntos, DSM, ortomosaico).
 - **DJI Thermal Tools** — calibración radiométrica de imágenes térmicas (extracción de temperatura absoluta previa al ensamblaje fotogramétrico).
 - **QGIS** — vectorización, georreferenciación y análisis espacial de copas individuales.
-- **Python** para extracción de variables espectrales/texturales y preparación de matrices ráster.
+- **Python** para extracción de variables espectrales/texturales, calibración y preparación de matrices ráster.
 
 ## Referencias
 
