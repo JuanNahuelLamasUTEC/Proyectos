@@ -24,7 +24,7 @@ Metadatos y estadísticas generales de la nube de puntos cruda (densidad, extens
 
 <img src="04-clasificacion-nube-puntos.png" width="700">
 
-Resultado de la clasificación suelo / no-suelo en LiDAR360, paso previo a la generación de los modelos de elevación.
+Resultado de la clasificación suelo / no-suelo en QTM, paso previo a la generación de los modelos de elevación.
 
 ### 5–6. Modelos de elevación
 
