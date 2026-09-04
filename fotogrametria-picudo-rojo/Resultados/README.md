@@ -16,7 +16,7 @@ Ortomosaico multiespectral, insumo para el cálculo de índices espectrales (NDV
 
 <img src="03-ortomosaico-termico.png" width="700">
 
-Ortomosaico térmico, generado a partir de imágenes calibradas radiométricamente con DJI Thermal Tools (temperatura absoluta, no relativa).
+Ortomosaico térmico, generado a partir de imágenes calibradas radiométricamente con Python (temperatura absoluta, no relativa).
 
 ### 4. Segmentación automática de copas
 
