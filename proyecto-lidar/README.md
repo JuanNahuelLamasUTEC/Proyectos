@@ -12,7 +12,7 @@ This project evaluates airborne LiDAR (DJI Zenmuse L2) for detecting pre-colonia
 
 Proyecto conjunto entre el **Grupo de Investigaciones Espaciales (GIEx, UTEC)** y el **Laboratorio de Análisis Espacial del CIRAT** (Centro de Investigación Regional Arqueológica y Territorial / PIAAD / MEC), orientado a evaluar el uso de sensores LiDAR aerotransportados para la identificación y caracterización de estructuras arqueológicas tipo *conchero* (montículos de origen antrópico precolonial) en ambientes costeros y de humedal.
 
-El relevamiento se realizó sobre un sitio con estructuras monticulares previamente identificadas y relevadas mediante fotogrametría en 2011, lo que permitió comparar la técnica LiDAR contra un registro fotogramétrico preexistente. **Constituye la primera aplicación de esta tecnología a un sitio arqueológico en Uruguay.**
+El relevamiento se realizó sobre un sitio con estructuras monticulares previamente identificadas y relevadas mediante campañas en campo durante el año 2011, lo que permitió comparar la técnica LiDAR contra un registro fotogramétrico preexistente. **Constituye la primera aplicación de esta tecnología a un sitio arqueológico en Uruguay.**
 
 Los resultados fueron presentados como resumen en congreso, en coautoría con CIRAT/MEC y GIEx-UTEC.
 
