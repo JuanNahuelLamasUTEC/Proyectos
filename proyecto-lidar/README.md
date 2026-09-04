@@ -80,7 +80,7 @@ Ver capturas y productos derivados en la carpeta [`resultados/`](./resultados).
 ## Herramientas
 
 - **Planificación de vuelo:** DJI Flight Planner
-- **Procesamiento LiDAR:** LiDAR360 v4.1.5 (clasificación, strip adjustment, generación de DEM/DSM) y QuickTerrain Modeler (QTM)
+- **Procesamiento LiDAR:** Quick Terrain Modeler (clasificación, strip adjustment, generación de DEM/DSM).
 - **Sensor:** DJI Zenmuse L2
 
 ## Referencias
