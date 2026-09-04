@@ -6,7 +6,7 @@
 
 ---
 
-Repositorio de proyectos de geoprocesamiento aplicado a investigación ambiental, hidrogeológica y arqueológica, desarrollados en el marco de mi trabajo en el **Grupo de Investigaciones Espaciales (GIEx)**, Universidad Tecnológica del Uruguay (UTEC), ITR Centro-Sur.
+Repositorio de proyectos de geoprocesamiento aplicado a investigación ambiental, hidrogeológica y arqueológica, desarrollados en el marco de mi trabajo en el **Grupo de Investigaciones Espaciales (GIEx)**, Universidad Tecnológica del Uruguay (UTEC).
 
 Cada carpeta corresponde a un proyecto independiente, con su propio README documentando contexto, metodología, herramientas y resultados. No se reproducen datos, mapas ni cartografía oficial de proyectos con informes aún en proceso de publicación o de sitios arqueológicos protegidos. El detalle de estas restricciones está aclarado en el README de cada carpeta.
 
