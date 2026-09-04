@@ -1,5 +1,7 @@
 # Fotogrametría UAV multisensor para caracterización fenotípica de palmeras: Detección temprana de picudo rojo
 
+> **Nota:** La metodología resultante de este trabajo fue realizada en conjunto con Microsoft (acuerdo UTEC-Microsoft). Esta información es confidencial.
+
 ## Project summary — English
 
 This project develops a UAV-based multisensor (RGB, multispectral, thermal) photogrammetry pipeline for early detection of red palm weevil (*Rhynchophorus ferrugineus*) in *Phoenix canariensis* palms at pilot sites in Montevideo, Uruguay. RTK-corrected positioning, radiometric thermal calibration (absolute vs. relative temperature), and Structure-from-Motion processing produce georeferenced orthomosaics and digital surface models. Individual palm crowns are segmented using a hybrid OBIA + vision-transformer approach, and per-crown spectral, thermal, and textural variables are extracted as inputs for downstream health-classification models.
